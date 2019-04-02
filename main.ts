@@ -8,7 +8,7 @@ namespace gigabitDisplay {
      */
     //% block
     export function mirrorDisplayOnGigabit(): void {
-        let item = neopixel.create(DigitalPin.P0, 25, NeoPixelMode.RGB)
+        let item = neopixel.create(DigitalPin.P16, 25, NeoPixelMode.RGB)
         control.inBackground(function () {
             while (true) {
                 for (let i = 0; i <= 25 - 1; i++) {
